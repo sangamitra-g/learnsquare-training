@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    font-family: cursive;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #335;
+  }
+.topnav a{
+    float: left;
+    color: lightskyblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: 17px;
+}
+.topnav a:hover{
+    background-color: skyblue;
+    color: chartreuse;
+}
+.topnav a.active{
+    background-color: lightgrey;
+    color:gray;
+}
+.banner{
+    padding-left: 16px;
+    margin-top: 100px;
+}

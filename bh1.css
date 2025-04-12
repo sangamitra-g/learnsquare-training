@@ -1,0 +1,13 @@
+.myOwn{
+    background-color: blueviolet;
+}
+
+.edit{
+    font-size:25px;
+    color:green;
+}
+
+.delete{
+    font-size: 30px;
+    color: red;
+} 
