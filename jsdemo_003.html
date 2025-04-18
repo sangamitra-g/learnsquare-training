@@ -7,10 +7,19 @@
                 alert("USER");
             }
     </script>
-    </script>
     <script>
             function PASSWORD() {
                 alert("PASSWORD");
+            }
+    </script>
+    <script>
+            function SUBMIT() {
+                alert("SUBMIT");
+            }
+    </script>
+    <script>
+            function CANCEL() {
+                alert("CANCEL");
             }
     </script>
     <script>
@@ -50,22 +59,26 @@
 
 <body>
     <button type="button" 
-            onclick="login()" 
+            onclick="LOGIN()" 
             style="margin-left: 50%;">
-            login
+            LOGIN
     </button>
     <h1>username</h1>
     <input id="bg" onkeyup="changeBackground()" placeholder="enter username or email" style="color:#fff">
     <h1>password</h1>
     <input id="bg" onkeyup="changeBackground()" placeholder="enter password" style="color:#fff">
     <button type="button" 
+            onclick="LOGIN()" 
+            style="margin-left: 50%;">
+            LOGIN
+    <button type="button" 
             onclick="submit()" 
             style="margin-left: 50%;">
-            submit
+            SUBMIT
     <button type="button" 
-            onclick="Cancel()" 
+            onclick="CANCEL()" 
             style="margin-bottom: 56%;">
-            Cancle
+            CANCEL
     
     </button>
 </body>
